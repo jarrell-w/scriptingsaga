@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= locals.title %></title>
+    <meta name="description" content="<%= locals.description %>">
+</head>
+<body>
+    <div class="container">
+        <%- include('../partials/header.ejs') %>
+        <main><%- body %></main>
+        <%- include('../partials/footer.ejs') %>
+    </div>
+    
+</body>
+</html>
+
+        <%# Notes: %>
+        <%# body is a placeholder. It means to render whatever content %>
+        <%# Is being routed to. If we are routed to about it will show about %>
+        <%# ejs, if we are routed to index/home it will show that ejs. %>
