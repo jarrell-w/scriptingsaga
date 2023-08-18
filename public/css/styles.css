@@ -16,8 +16,6 @@ root {
 body {
     background-color: var(--cream);
     font-family: 'Poppins', sans-serif;
-    text-align: center;
 }
 ul li {
-    list-style: none;
 }
