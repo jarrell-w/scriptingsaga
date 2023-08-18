@@ -7,7 +7,6 @@
 const express = require('express')
 const router = express.Router()
 
-//note: route.get('')
 router.get('/', (req, res) => {
     const locals = {
         title: "The Scripting Saga | Jarrell W",

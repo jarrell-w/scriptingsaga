@@ -17,5 +17,12 @@ body {
     background-color: var(--cream);
     font-family: 'Poppins', sans-serif;
 }
-ul li {
+.hero-image img {
+    max-height: 800px;
+}
+li {
+    margin-bottom: 20px;
+}
+.navbar {
+    border-bottom: 1px solid rgba(169, 169, 169, 0.5);
 }
