@@ -18,11 +18,19 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 .hero-image img {
-    max-height: 800px;
+    max-height: 600px;
 }
 li {
     margin-bottom: 20px;
 }
 .navbar {
     border-bottom: 1px solid rgba(169, 169, 169, 0.5);
+}
+h2 .latest {
+    border-bottom: 2px solid black;
+}
+
+.circle-hero-image {
+    max-width: 400px;
+
 }
