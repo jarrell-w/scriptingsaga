@@ -20,13 +20,18 @@
 </div>
 <div class="container-lg my-5 ">
 
-    <div class="row text-center my-1  p-3 ">
-        <h2 class="col-12"><span class="latest">Latest Post</span></h2>
+    <div class="row text-center my-1 p-3 ">
+        <h2 class="col-12"><span class="latest">Latest Posts</span></h2>
         <div class="col-12">
             <ul>
-                <li class="list-unstyled shadow p-3 mb-5 bg-body rounded">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</li>
-                <li class="list-unstyled shadow p-3 mb-5 bg-body rounded">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque rerum veritatis dolorum?</li>
-                <li class="list-unstyled shadow p-3 mb-5 bg-body rounded">Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                <% data.forEach(post => { %>
+                 <a href="/post/<%= post._id %>" class="text-decoration-none "><li class="list-unstyled shadow p-3 mb-5 bg-body rounded posts">
+                    <h3><%= post.title %></h3>
+                    <p><%= post.body %></p>
+                </li>
+                <% }) %></a>
+
+                
             </ul>
 
         </div>

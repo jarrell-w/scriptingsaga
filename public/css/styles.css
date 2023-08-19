@@ -34,3 +34,15 @@ h2 .latest {
     max-width: 400px;
 
 }
+.posts {
+    
+}
+ul .posts:hover{
+    cursor: pointer;
+    background: rgba(231, 228, 228, 0.5);
+    padding-bottom: 10px;
+    transition: padding-bottom 1s;
+}
+a {
+    color: black;
+}
