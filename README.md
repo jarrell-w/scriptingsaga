@@ -28,6 +28,7 @@ Created with:
 - CSS for style
 - JavaScript for interactivity
 - Node.js and Express for server-side development
+- MongoDB for storing data
 
 
 ## Contribute
