@@ -51,6 +51,10 @@ router.get('/contact', (req, res) => {
     res.render('contact')
 })
 
+router.get('', (req,res) => {
+    res.status(404).send('<h1>Eror 404 Page Not Found</h1>')
+})
+
 
 
 /*
